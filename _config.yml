@@ -1,7 +1,7 @@
 # Site
 title:              Knohin's Blog
-bio:                '아주 의미없는 내 이야기'
-description:        "Moon is a minimal, one column jekyll theme for your blog."
+bio:                '아주 별일없는 이야기'
+description:        "개발자?"
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
@@ -26,7 +26,7 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:   Knohin
+disqus_shortname:   knohins-blog
 
 # Social
 # if you don't have any of social below, comment the line.
