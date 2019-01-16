@@ -1,37 +1,16 @@
 ---
 layout: page
-title: About the Theme
-tags: [about, Jekyll, theme, moon]
-date: 2016-03-21
+title: About Knohin
+tags: [about, Knohin]
+date: 2019-01-19
 comments: false
 ---
     
-<center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
+<center><!--a href="http://Knohin.github.io"-->개발자</center>
 
-## Features
-* Minimal, you can focus on your content
-* Responsive
-* Disqus integration
-* Syntax highlighting
-* Optional post image
-* Social icons
-* Page for sharing projects
-* Optional background image
-* Simple navigation menu
-* MathJax support
+## 특징
+* Name : 권오진 Kwon Ohjin
+* Email : koj714@daum.net
+* Mobile : 010-
+* Company : NHN Entertainment. 13487 경기도 성남시 분당구 삼평동 629 NHN엔터테인먼트 플레이뮤지엄
 
-## Preview
-
-{% capture images %}
-    https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
-    https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png
-{% endcapture %}
-{% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
-
-See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
-
-## Getting Started
-
-To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
-      
-[Install Moon](https://github.com/TaylanTatli/Moon){: .btn}
