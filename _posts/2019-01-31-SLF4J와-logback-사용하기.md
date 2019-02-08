@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "Spring 프로젝트에 SLF4J와 LOGBack 적용하기"
+title: "Spring 프로젝트에 SLF4J와 logback 적용하기"
 date: 2019-01-31
-excerpt: "LOGBack에 대한 설명부터 프로젝트에 적용하기 까지"
-tags: [BaseCamp, rookie 6기, SLF4J, LOGBack]
+excerpt: "logback에 대한 설명부터 프로젝트에 적용하기 까지"
+tags: [BaseCamp, rookie 6기, SLF4J, logback]
 comments: true
 ---
 
-# SLF4J와 LOGBack 사용하기
+# SLF4J와 logback 사용하기
 
 
-### LOGBack이란?
+### logback이란?
  프로젝트를 위해 개발을 하다보면 중간중간에 로그를 남겨야할 필요를 느낄때가 있다. 디버깅을 위해서라던지, 제대로 동작했는지 확인을 하기 위해서 혹은 문제가 생겼을때 관련된 정보를 보기 위해서 말이다. 나 같은 초보 개발자 라면 일단 언어에서 제공하는 표준 출력(System.out.println 등..)을 사용해서 로그를 찍으려고 할것이다. 하지만 표준 출력함수를 통해 로그를 남기는 것은 상당한 오버헤드를 가지고 있다.
- 그래서 예전에 java에서는 apache에서 개발한 Log4j라는 로깅 유틸리티를 이용해 로그를 남겼다. 하지만 지금은 Log4j도 오래된 것이 되었고, 주로 LOGBack이나 log4j2를 사용한다고 한다. (참고 - [Readons to prefer logback over log4j](https://logback.qos.ch/reasonsToSwitch.html))
+ 그래서 예전에 java에서는 apache에서 개발한 Log4j라는 로깅 유틸리티를 이용해 로그를 남겼다. 하지만 지금은 Log4j도 오래된 것이 되었고, 주로 logbackack이나 log4j2를 사용한다고 한다. (참고 - [Readons to prefer logback over log4j](https://logback.qos.ch/reasonsToSwitch.html))
 
 
 
@@ -25,10 +25,10 @@ comments: true
 
 * * *
 
-### 프로젝트에 SLF4J와 LOGBack 적용하는 방법
+### 프로젝트에 SLF4J와 logback 적용하는 방법
 (Maven web project를 기준으로 설명합니다.)
 
-1. Maven POM에 LOGBack dependency를 추가한다.
+1. Maven POM에 logback dependency를 추가한다.
 
 ```xml
 (pom.xml)
